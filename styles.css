@@ -108,13 +108,13 @@ button.add-to-cart:hover {
   padding: 0 0.56rem;
 }
 
-@media (width >= 350px) {
+@media (min-width: 350px) {
   .product-card {
     width: 350px;
   }
 }
 
-@media (width >= 900px) {
+@media (min-width: 900px) {
   html {
     font-size: 16px;
   }
